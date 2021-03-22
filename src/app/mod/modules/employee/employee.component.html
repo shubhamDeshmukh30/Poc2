@@ -1,0 +1,64 @@
+
+<div class="container">
+    <div class="row">
+    
+
+    <div class="form-group col-md-12">
+        <h4>Full Name </h4>
+       <input type="text" class="form-control"  placeholder="Enter fn" [(ngModel)]="ss.e.firstName">
+    </div>
+    <h4>surName </h4>    
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter ln" [(ngModel)]="ss.e.surName">
+    </div>
+    <h4>Age</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter age" [(ngModel)]="ss.e.age">
+    </div>
+    <h4>Email</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter email" [(ngModel)]="ss.e.email">
+    </div>
+    <h4>occupation</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter occupation" [(ngModel)]="ss.e.occupation">
+    </div>
+    <h4>Pincode</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter pincofde" [(ngModel)]="ss.e.pincode">
+    </div>
+    <h4>City</h4>    
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter city" [(ngModel)]="ss.e.city">
+    </div> 
+    <h4>State</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter state" [(ngModel)]="ss.e.state">
+    </div>
+    <h4>Country</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter country" [(ngModel)]="ss.e.country">
+    </div>
+    <h4>Date-Of-Birth</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter dob" [(ngModel)]="ss.e.dob">
+    </div>
+    <h4>Date-Of-Joining</h4>
+    <div class="form-group col-md-12">
+        <input type="text" class="form-control"  placeholder="Enter doj" [(ngModel)]="ss.e.doj">
+    </div>
+    
+    
+    <br>
+      <div class="form-group"> 
+          <button class="btn btn-success btn-lg btn-block" (click)="submitdata(ss.e)">Submit</button>
+          <!-- <button class="btn btn-warning btn-lg btn-block" (click)="resetdata()">reset</button> -->
+<div>
+    <button type="submit" (click)="listdisplay()">list</button>
+</div>       
+      </div>
+      <div class="jumbotron">
+      <app-delcomponent></app-delcomponent></div>
+      <div class="col-md-6"> <app-employee-list> </app-employee-list></div> 
+
+    </div>

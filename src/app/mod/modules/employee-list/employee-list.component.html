@@ -1,0 +1,50 @@
+ <div class="container">
+    <table class="table table-striped">
+      <tbody >
+          <tr>
+          <th>userId </th>
+          <th> FirstName </th>
+          <th> surName </th>
+          <th> age </th>
+          <th> email </th>
+          <th> State </th>
+          <th> Country</th>
+          <th> Occupation </th>
+          <th> pincode </th>
+          <th> DOB </th>
+          <th> DOj </th> 
+        </tr>
+        <tr *ngFor='let e of gd'>
+          <td> {{e.userId}} </td>
+          <td> {{e.firstName}} </td>
+          <td> {{e.surName}} </td>
+          <td> {{e.age}} </td>
+          <td> {{e.email}} </td>
+          <td> {{e.state}} </td>
+          <td> {{e.country}} </td>
+          <td> {{e.occupation}} </td>
+          <td>  {{e.pincode}}</td>
+          <td>  {{e.dob}}</td>
+          <td>  {{e.doj}}</td>
+
+
+            <!-- <td><button class="btn btn-success btn-lg btn-block" (click)="editData(e)">EDIT</button></td> -->
+             
+           <!-- <td><button class="btn btn-warning btn-lg btn-block" (click)="deletedata(e)">DELETE</button></td>          </tr>  -->
+       </tbody> 
+     </table>
+   </div>  
+    <!-- <div class="form-group col-md-6">
+    <input type="text" class="form-control"  placeholder="Enter fn" [(ngModel)]="userId">
+ </div>
+    <button type="Submit" class="btn btn-warning btn-lg btn-block" (click)="deletedata(userId)">DELETE</button> -->
+
+
+<!-- // get data method
+    <div> 
+  <div class="form-group col-md-6">
+    <input type="text" class="form-control"  placeholder="get id" [(ngModel)]="s.e.userId">
+ </div>
+    <button type="Submit" class="btn btn-warning btn-lg btn-block" (click)="getdata(s.e)">Get Data</button>
+
+</div> -->

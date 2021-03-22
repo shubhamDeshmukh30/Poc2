@@ -1,0 +1,17 @@
+table{
+    border: solid black;
+    border:"1",
+
+
+}
+h1{
+    box-align:"center",
+}
+
+tr, th, td{
+    border: solid black;
+    
+}
+h3{
+    color: cornflowerblue;
+}
